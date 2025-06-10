@@ -1,0 +1,45 @@
+/**
+Theme Name: Indie Writer
+Theme URI: https://nishantshaligram.github.io/indie-writer/
+Author: Nishant Shaligram
+Author URI: https://nishantshaligram.github.io
+Slug: indie-writer
+Text Domain: indie-writer
+Description: An simple blog theme for indie writer that give more focus to content than visuals.
+Version: 1.0.0
+Tags: blog, single column, gutenberg support
+*/
+
+@use './blocks/pagination.scss';
+@use './blocks/latest-post.scss';
+@use './blocks/categories.scss';
+@use './blocks/read-more.scss';
+
+a {
+    color: var( --wp--preset--color--text );
+    &:hover {
+        color: var( --wp--preset--color--button-hover );
+    }
+}
+
+.site-header {
+    .navbar {
+        .menu {
+            .menu-item {
+                margin-bottom: 10px;
+
+                & > a {
+                    color: var( --wp--preset--color--button );
+                }
+            }
+        }
+    }
+}
+
+.site-header .navbar .menu .menu-item {
+    margin-bottom: 10px;
+}
+.site-header .navbar .menu .menu-item > a {
+    color: var( --wp--preset--color--button );
+}
+

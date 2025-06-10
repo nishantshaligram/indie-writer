@@ -1,0 +1,17 @@
+{
+  "name": "indie-writer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "sass --watch assets/scss/style.scss:style.css",
+    "build:css": "sass assets/scss/style.scss:style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.1"
+  }
+}
