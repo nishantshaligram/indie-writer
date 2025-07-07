@@ -9,6 +9,11 @@ Description: An simple blog theme for indie writer that give more focus to conte
 Version: 1.0.0
 Tags: blog, single column, gutenberg support
 */
+
+.wp-block-site-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .wp-block-query-pagination {
   display: flex;
   justify-content: center;

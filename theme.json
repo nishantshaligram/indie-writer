@@ -33,7 +33,7 @@
                 {
                     "name": "Background",
                     "slug": "background",
-                    "color": "#F2F2F2"
+                    "color": "#f1f4f9"
                 },
                 {
                     "name": "Text",
@@ -53,7 +53,7 @@
                 {
                     "name": "Border",
                     "slug": "border",
-                    "color": "#EAE4D5"
+                    "color": "#E9E9E9"
                 },
                 {
                     "name": "Black",
