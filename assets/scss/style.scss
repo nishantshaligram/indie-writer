@@ -10,10 +10,8 @@ Version: 1.0.0
 Tags: blog, single column, gutenberg support
 */
 
-@use './blocks/pagination.scss';
 @use './blocks/latest-post.scss';
 @use './blocks/categories.scss';
-@use './blocks/read-more.scss';
 
 a {
     color: var( --wp--preset--color--text );
@@ -23,6 +21,10 @@ a {
 }
 
 .site-header {
+    .wp-block-site-title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .navbar {
         .menu {
             .menu-item {
