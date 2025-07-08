@@ -55,6 +55,9 @@ a:hover {
   color: var(--wp--preset--color--button-hover);
 }
 
+.site-header .wp-block-navigation__container {
+  gap: clamp(20px, 4vw, 40px);
+}
 .site-header .wp-block-site-title {
   margin-top: 0;
   margin-bottom: 0;

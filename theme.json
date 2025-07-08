@@ -19,6 +19,34 @@
                 "vh",
                 "vw",
                 "%"
+            ],
+            "customSpacingSize": true,
+            "spacingSizes": [
+                {
+                    "name": "IW Extra Small",
+                    "size": "clamp(10px, 2vw, 20px)",
+                    "slug": "iw-extra-small"
+                },
+                {
+                    "name": "IW Small",
+                    "size": "clamp(20px, 2vw, 40px)",
+                    "slug": "iw-small"
+                },
+                {
+                    "name": "IW Medium",
+                    "size": "clamp(30px, 6vw, 60px)",
+                    "slug": "iw-medium"
+                },
+                {
+                    "name": "IW Large",
+                    "size": "clamp(40px, 8vw, 80px)",
+                    "slug": "iw-large"
+                },
+                {
+                    "name": "IW Extra Large",
+                    "size": "clamp(50px, 10vw, 100px)",
+                    "slug": "iw-extra-large"
+                }
             ]
         },
         "border": {
@@ -71,6 +99,27 @@
         "typography": {
             "fontFamilies": [
                 {
+                    "fontFamily": "'Merriweather', sans-serif",
+                    "slug": "merriweather",
+                    "name": "Merriweather",
+                    "fontFace": [
+                        {
+                            "fontFamily": "'Merriweather', sans-serif",
+                            "fontVariant": "700",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "src": "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+                        },
+                        {
+                            "fontFamily": "'Merriweather', sans-serif",
+                            "fontVariant": "900",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "src": "https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap"
+                        }
+                    ]
+                },
+                {
                     "fontFamily": "'Lato', sans-serif",
                     "slug": "lato",
                     "name": "Lato",
@@ -88,20 +137,6 @@
                             "fontWeight": "400",
                             "fontStyle": "normal",
                             "src": "https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
-                        },
-                        {
-                            "fontFamily": "Lato",
-                            "fontVariant": "500",
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "src": "https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap"
-                        },
-                        {
-                            "fontFamily": "Lato",
-                            "fontVariant": "700",
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "src": "https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
                         }
                     ]
                 }
@@ -145,6 +180,11 @@
             ]
         },
         "blocks": {
+            "core/group": {
+                "dimensions": {
+                    "minHeight": true
+                }
+            }
         },
         "custom": {
 		}
@@ -156,7 +196,7 @@
         "elements": {
             "heading": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--lato)"
+                    "fontFamily": "var(--wp--preset--font-family--merriweather)"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--text)"
@@ -202,10 +242,10 @@
             "core/group": {
                 "spacing": {
                     "padding": {
-                        "top": "1rem",
-                        "bottom": "1rem",
-                        "left": "1rem",
-                        "right": "1rem"
+                        "top": "var()",
+                        "bottom": "var()",
+                        "left": "var()",
+                        "right": "var()"
                     }
                 }
             },
