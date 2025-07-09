@@ -346,10 +346,10 @@
             "core/group": {
                 "spacing": {
                     "padding": {
-                        "top": "var()",
-                        "bottom": "var()",
-                        "left": "var()",
-                        "right": "var()"
+                        "top": "var(--wp--preset--spacing--iw-extra-large)",
+                        "bottom": "var(--wp--preset--spacing--iw-extra-large)",
+                        "left": "var(--wp--preset--spacing--iw-small)",
+                        "right": "var(--wp--preset--spacing--iw-small)"
                     }
                 }
             },
