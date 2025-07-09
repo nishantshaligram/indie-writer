@@ -245,6 +245,12 @@
                 },
                 "color": {
                     "text": "var(--wp--preset--color--text)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "0px",
+                        "bottom": "var(--wp--preset--spacing--iw-extra-small)"
+                    }
                 }
             },
             "button": {
