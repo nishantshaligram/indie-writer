@@ -77,4 +77,18 @@ a:hover {
   color: var(--wp--preset--color--button);
 }
 
+@media (max-width: 1024px) {
+  .site-header .site-branding {
+    flex-basis: 40% !important;
+  }
+  .site-header .site-navigation {
+    justify-content: flex-end;
+    flex-basis: 60% !important;
+  }
+  .site-header .site-action {
+    flex-basis: 0%;
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -69,29 +69,19 @@
                     "color": "#000000"
                 },
                 {
-                    "name": "Button",
-                    "slug": "button",
+                    "name": "Primary",
+                    "slug": "primary",
                     "color": "#3560D8"
                 },
                 {
-                    "name": "Button Hover",
-                    "slug": "button-hover",
+                    "name": "Secondary",
+                    "slug": "secondary",
                     "color": "#5B7DD9"
                 },
                 {
-                    "name": "Border",
+                    "name": "Accent",
                     "slug": "border",
                     "color": "#CCDAFB"
-                },
-                {
-                    "name": "Black",
-                    "slug": "black",
-                    "color": "#000000"
-                },
-                {
-                    "name": "White",
-                    "slug": "white",
-                    "color": "#FFFFFF"
                 }
             ],
             "custom": true
@@ -262,12 +252,12 @@
                 },
                 "color": {
                     "background": "var(--wp--preset--color--transparent)",
-                    "text": "var(--wp--preset--color--button)"
+                    "text": "var(--wp--preset--color--primary)"
                 },
                 ":hover":{
                     "color": {
                         "background": "var(--wp--preset--color--transparent)",
-                        "text": "var(--wp--preset--color--button-hover)"
+                        "text": "var(--wp--preset--color--secondary)"
                     }
                 }
             },
