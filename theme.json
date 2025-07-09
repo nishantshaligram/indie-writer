@@ -268,8 +268,7 @@
             "link": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--lato)",
-                    "fontSize": "var(--wp--preset--font-size--iw-sm)",
-                    "fontStyle": "italic"
+                    "fontSize": "var(--wp--preset--font-size--iw-sm)"                    
                 },
                 "color": {
                     "text": "var(--wp--preset--color--text)"
@@ -284,7 +283,7 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--playfair-display)",
                     "fontSize": "var(--wp--preset--font-size--iw-xs)",
-                    "fontStyle": "normal",
+                    "fontStyle": "italic",
                     "fontWeight": "400"
                 },
                 "color": {
@@ -341,6 +340,13 @@
             "text": "var(--wp--preset--color--text)"
         },
         "blocks": {
+            "core/site-title": {
+                "typography": {
+                    "fontSize": "var(--wp--preset-font-size-iw-l)",
+                    "fontWeight": "700",
+                    "textTransform": "uppercase"
+                }
+            },
             "core/group": {
                 "spacing": {
                     "padding": {
@@ -535,5 +541,10 @@
         }
     ],
     "customTemplates": [
+    ],
+    "patterns": [
+        "indie-writer/quote",
+        "indie-writer/featured-posts",
+        "indie-writer/intro-section"
     ]
 }
