@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Featured Posts
+ * Title: Intro Section
  * Slug: indie-writer/intro-section
  * Categories: featured
  */
