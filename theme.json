@@ -99,23 +99,23 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "fontFamily": "'Merriweather', sans-serif",
-                    "slug": "merriweather",
-                    "name": "Merriweather",
+                    "fontFamily": "'Playfair Display', serif",
+                    "slug": "playfair-display",
+                    "name": "Playfair Display",
                     "fontFace": [
                         {
-                            "fontFamily": "'Merriweather', sans-serif",
+                            "fontFamily": "'Playfair Display', serif",
                             "fontVariant": "700",
                             "fontWeight": "700",
                             "fontStyle": "normal",
-                            "src": "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+                            "src": "wp-content/themes/indie-writer/assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf"
                         },
                         {
-                            "fontFamily": "'Merriweather', sans-serif",
+                            "fontFamily": "'Playfair Display', serif",
                             "fontVariant": "900",
                             "fontWeight": "900",
                             "fontStyle": "normal",
-                            "src": "https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap"
+                            "src": "wp-content/themes/indie-writer/assets/fonts/Playfair_Display/PlayfairDisplay-Black.ttf"
                         }
                     ]
                 },
@@ -125,18 +125,32 @@
                     "name": "Lato",
                     "fontFace": [
                         {
-                            "fontFamily": "Lato",
-                            "fontVariant": "300",
-                            "fontWeight": "300",
-                            "fontStyle": "normal",
-                            "src": "https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
-                        },
-                        {
-                            "fontFamily": "Lato",
+                            "fontFamily": "'Lato', serif",
                             "fontVariant": "400",
                             "fontWeight": "400",
                             "fontStyle": "normal",
-                            "src": "https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
+                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-Regular.ttf"
+                        },
+                        {
+                            "fontFamily": "'Lato', serif",
+                            "fontVariant": "400",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-Italic.ttf"
+                        },
+                        {
+                            "fontFamily": "'Lato', serif",
+                            "fontVariant": "300",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-Light.ttf"
+                        },
+                        {
+                            "fontFamily": "'Lato', serif",
+                            "fontVariant": "300",
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-LightItalic.ttf"
                         }
                     ]
                 }
@@ -145,28 +159,58 @@
             "fluid": true,
             "fontSizes":[
                 {
-                    "name": "xs",
-                    "fluid": true,
-                    "size": "0.5em",
-                    "slug": "extra-small"
+                    "name": "IW XS",
+                    "fluid": {
+                        "min": "12px",
+                        "max": "14px"
+                    },
+                    "size": "12px",
+                    "slug": "iw-xs"
                 },
                 {
-                    "name": "sm",
-                    "fluid": true,
-                    "size": "0.875em",
-                    "slug": "small"
+                    "name": "IW SM",
+                    "fluid": {
+                        "min": "14px",
+                        "max": "16px"
+                    },
+                    "size": "14px",
+                    "slug": "iw-sm"
                 },
                 {
-                    "name": "m",
-                    "fluid": true,
-                    "size": "1em",
-                    "slug": "medium"
+                    "name": "IW M",
+                    "fluid": {
+                        "min": "18px",
+                        "max": "21px"
+                    },
+                    "size": "18px",
+                    "slug": "iw-m"
                 },
                 {
-                    "name": "l",
-                    "fluid": true,
-                    "size": "1.5em",
-                    "slug": "large"
+                    "name": "IW L",
+                    "fluid": {
+                        "min": "24px",
+                        "max": "26px"
+                    },
+                    "size": "24px",
+                    "slug": "iw-l"
+                },
+                {
+                    "name": "IW XL",
+                    "fluid": {
+                        "min": "32px",
+                        "max": "36px"
+                    },
+                    "size": "32px",
+                    "slug": "iw-xl"
+                },
+                {
+                    "name": "IW XXL",
+                    "fluid": {
+                        "min": "42px",
+                        "max": "46px"
+                    },
+                    "size": "42px",
+                    "slug": "iw-xxl"
                 }
             ]
         },
@@ -196,7 +240,8 @@
         "elements": {
             "heading": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--merriweather)"
+                    "fontFamily": "var(--wp--preset--font-family--playfair-display)",
+                    "textTransform": "capitalize"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--text)"
@@ -204,7 +249,10 @@
             },
             "button": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--lato)"
+                    "fontFamily": "var(--wp--preset--font-family--lato)",
+                    "fontSize": "var(--wp--preset--font-size--iw-sm)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500"
                 },
                 "color": {
                     "background": "var(--wp--preset--color--transparent)",
@@ -219,7 +267,9 @@
             },
             "link": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--lato)"
+                    "fontFamily": "var(--wp--preset--font-family--lato)",
+                    "fontSize": "var(--wp--preset--font-size--iw-sm)",
+                    "fontStyle": "italic"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--text)"
@@ -228,6 +278,58 @@
                     "color": {
                         "text": "var( --wp--preset--color--link-hover ) "
                     }
+                }
+            },
+            "caption": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfair-display)",
+                    "fontSize": "var(--wp--preset--font-size--iw-xs)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--border)"
+                }
+            },
+            "cite": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfair-display)",
+                    "fontSize": "var(--wp--preset--font-size--iw-xs)",
+                    "fontStyle": "italic",
+                    "fontWeight": "400"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--border)"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--iw-xxl)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--iw-xl)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--iw-l)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--iw-m)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--iw-sm)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--iw-xs)"
                 }
             }
         },
