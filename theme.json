@@ -547,6 +547,13 @@
         }
     ],
     "customTemplates": [
+        {
+            "name": "page-about",
+            "postTypes": [
+                "page"
+            ],
+            "title": "About"
+        }
     ],
     "patterns": [
         "indie-writer/quote",

@@ -1,9 +1,30 @@
 <!-- wp:template-part {"slug":"header","theme":"indie-writer","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","className":"main-content",,"style":{"spacing":{"padding":{"top":"0px","bottom":"0px","left":"0px","right": "0px"}}}} -->
-    <main class="wp-block-group main-content" style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;">
-        <!-- wp:template-part {"slug":"query","theme":"indie-writer"} /-->
-    </main>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-extra-large","bottom":"var:preset|spacing|iw-extra-large","left":"var:preset|spacing|iw-small","right":"var:preset|spacing|iw-small"}}},"layout":{"type":"constrained","contentSize":"960px"}} -->
+<div class="wp-block-group"
+    style="padding-top:var(--wp--preset--spacing--iw-extra-large);padding-right:var(--wp--preset--spacing--iw-small);padding-bottom:var(--wp--preset--spacing--iw-extra-large);padding-left:var(--wp--preset--spacing--iw-small)">
+    <!-- wp:heading {"textAlign":"center","level":1} -->
+    <h1 class="wp-block-heading has-text-align-center">Latest Essays in Elegance</h1>
+    <!-- /wp:heading -->
+
+    <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|iw-small"}}}} -->
+    <p class="has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--iw-small)">Weekly editorials and
+        thought-pieces on what’s shaping luxury — from fashion week standouts to the subtext behind a fragrance
+        campaign. This is more than blog content; it’s culture with an eye for the extraordinary.</p>
+    <!-- /wp:paragraph -->
+
+    <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+    <div class="wp-block-buttons"><!-- wp:button -->
+        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Subscribe for Weekly Words in
+                Style</a></div>
+        <!-- /wp:button -->
+    </div>
+    <!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","className":"main-content","layout":{"type":"constrained","contentSize":"960px"}} -->
+<main class="wp-block-group main-content"><!-- wp:template-part {"slug":"query","theme":"indie-writer"} /--></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"indie-writer","area":"footer"} /-->
