@@ -543,6 +543,13 @@
                 "page"
             ],
             "title": "About"
+        },
+        {
+            "name": "page-contact",
+            "postTypes": [
+                "page"
+            ],
+            "title": "Contact"
         }
     ],
     "patterns": [
