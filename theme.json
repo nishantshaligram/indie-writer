@@ -98,14 +98,14 @@
                             "fontVariant": "700",
                             "fontWeight": "700",
                             "fontStyle": "normal",
-                            "src": "wp-content/themes/indie-writer/assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf"
+                            "src": ["file:./assets/fonts/PlayfairDisplay-Bold.ttf"]
                         },
                         {
                             "fontFamily": "'Playfair Display', serif",
                             "fontVariant": "900",
                             "fontWeight": "900",
                             "fontStyle": "normal",
-                            "src": "wp-content/themes/indie-writer/assets/fonts/Playfair_Display/PlayfairDisplay-Black.ttf"
+                            "src": ["file:./assets/fonts/PlayfairDisplay-Black.ttf"]
                         }
                     ]
                 },
@@ -119,28 +119,28 @@
                             "fontVariant": "400",
                             "fontWeight": "400",
                             "fontStyle": "normal",
-                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-Regular.ttf"
+                            "src": ["file:./assets/fonts/Lato-Regular.ttf"]
                         },
                         {
                             "fontFamily": "'Lato', serif",
                             "fontVariant": "400",
                             "fontWeight": "400",
                             "fontStyle": "italic",
-                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-Italic.ttf"
+                            "src": ["file:./assets/fonts/Lato-Italic.ttf"]
                         },
                         {
                             "fontFamily": "'Lato', serif",
                             "fontVariant": "300",
                             "fontWeight": "300",
                             "fontStyle": "normal",
-                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-Light.ttf"
+                            "src": ["file:./assets/fonts/Lato-Light.ttf"]
                         },
                         {
                             "fontFamily": "'Lato', serif",
                             "fontVariant": "300",
                             "fontWeight": "300",
                             "fontStyle": "italic",
-                            "src": "wp-content/themes/indie-writer/assets/fonts/Lato/Lato-LightItalic.ttf"
+                            "src": ["file:./assets/fonts/Lato-LightItalic.ttf"]
                         }
                     ]
                 }
