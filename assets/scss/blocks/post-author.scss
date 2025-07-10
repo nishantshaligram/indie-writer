@@ -1,0 +1,16 @@
+.wp-block-post-author {
+    .wp-block-post-author__avatar {
+    }
+    .wp-block-post-author__name {
+        font-size: var(--wp--preset--font-size--iw-l);
+        font-weight: 500;
+        margin-bottom: var(--wp--preset--spacing--iw-extra-small);
+        color: var(--wp--preset--color--primary);
+    }
+
+    .wp-block-post-author__bio {
+        font-size: var(--wp--preset--font-size--iw-sm);
+        font-weight: 400;
+        color: var(--wp--preset--color--text);
+    }
+}

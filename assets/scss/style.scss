@@ -12,6 +12,9 @@ Tags: blog, single column, gutenberg support
 
 @use './blocks/latest-post.scss';
 @use './blocks/categories.scss';
+@use './blocks/post-author.scss';
+@use './blocks/comments.scss';
+@use './blocks/query-pagination.scss';
 
 a {
     color: var( --wp--preset--color--text );

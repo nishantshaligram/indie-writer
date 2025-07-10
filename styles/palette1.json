@@ -17,12 +17,12 @@
                 {
                     "name": "Primary",
                     "slug": "primary",
-                    "color": "#F7F7F7"
+                    "color": "#000000"
                 },
                 {
                     "name": "Secondary",
                     "slug": "secondary",
-                    "color": "#000000"
+                    "color": "#9D9D9D"
                 },
                 {
                     "name": "Accent",

@@ -283,7 +283,7 @@
                     "fontWeight": "400"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--border)"
+                    "text": "var(--wp--preset--color--secondary)"
                 }
             },
             "cite": {
@@ -294,7 +294,7 @@
                     "fontWeight": "400"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--border)"
+                    "text": "var(--wp--preset--color--secondary)"
                 }
             },
             "h1": {
@@ -329,7 +329,7 @@
             }
         },
         "border": {
-            "color": "var(--wp--preset--color--border)"
+            "color": "var(--wp--preset--color--secondary)"
         },
         "color": {
             "background": "var(--wp--preset--color--background)",
@@ -359,7 +359,7 @@
                 },
                 "border": {
                     "width": "1px",
-                    "color": "var(--wp--preset--color--border)",
+                    "color": "var(--wp--preset--color--secondary)",
                     "radius": "0",
                     "style": "solid"
                 },
@@ -382,7 +382,7 @@
                 },
                 "border": {
                     "width": "1px",
-                    "color": "var(--wp--preset--color--border)",
+                    "color": "var(--wp--preset--color--secondary)",
                     "radius": "0",
                     "style": "solid"
                 },
@@ -409,7 +409,7 @@
                 "border": {
                     "bottom": {
                         "width" : "1px",
-                        "color": "var(--wp--preset--color--border)",
+                        "color": "var(--wp--preset--color--secondary)",
                         "style": "solid"
                     }
                 },
@@ -458,16 +458,16 @@
                 },
                 "border": {
                     "width": "1px",
-                    "color": "var(--wp--preset--color--border)",
+                    "color": "var(--wp--preset--color--secondary)",
                     "radius": "0",
                     "style": "solid"
                 },
                 "spacing": {
                     "padding": {
-                        "top": "0.5em",
-                        "bottom": "0.5em",
-                        "left": "0.5em",
-                        "right": "1em"
+                        "top": "var(--wp--preset--spacing--iw-extra-small)",
+                        "bottom": "var(--wp--preset--spacing--iw-extra-small)",
+                        "left": "var(--wp--preset--spacing--iw-extra-small)",
+                        "right": "var(--wp--preset--spacing--iw-extra-small)"
                     }
                 }
             },
@@ -477,20 +477,37 @@
                 },
                 "border": {
                     "width": "1px",
-                    "color": "var(--wp--preset--color--border)",
+                    "color": "var(--wp--preset--color--secondary)",
                     "radius": "0",
                     "style": "solid"
                 },
                 "spacing": {
                     "padding": {
-                        "top": "0.5em",
-                        "bottom": "0.5em",
-                        "left": "1em",
-                        "right": "0.5em"
+                        "top": "var(--wp--preset--spacing--iw-extra-small)",
+                        "bottom": "var(--wp--preset--spacing--iw-extra-small)",
+                        "left": "var(--wp--preset--spacing--iw-extra-small)",
+                        "right": "var(--wp--preset--spacing--iw-extra-small)"
                     }
                 }
             },
             "core/query-pagination-numbers": {
+            },
+            "core/post-author": {
+                "spacing": {
+                    "padding": {
+                        "top": "var(--wp--preset--spacing--iw-small)",
+                        "bottom": "var(--wp--preset--spacing--iw-small)",
+                        "left": "var(--wp--preset--spacing--iw-small)",
+                        "right": "var(--wp--preset--spacing--iw-small)"
+                    }
+                },
+                "border": {
+                    "top": {
+                        "width": "1px",
+                        "style": "solid",
+                        "color": "var(--wp--preset--color--primary)"
+                    }                    
+                }
             }
         }
     },
