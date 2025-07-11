@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch:css": "sass --watch assets/scss/style.scss:style.css",
-    "build:css": "sass assets/scss/style.scss:style.css",
+    "watch:css": "sass --watch assets/scss:assets/css --source-map",
+    "build:css": "sass assets/scss:assets/css --style=compressed --no-source-map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

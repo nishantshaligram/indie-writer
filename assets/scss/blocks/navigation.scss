@@ -1,0 +1,25 @@
+.site-header {
+    .wp-block-navigation__container {
+        gap: clamp(20px, 4vw, 40px);
+    }
+    .wp-block-site-title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media( max-width: 1024px ) {
+    .site-header {
+        .site-branding {
+            flex-basis: 40% !important;
+        }
+        .site-navigation {
+            justify-content: flex-end;
+            flex-basis: 60% !important;
+        }
+        .site-action {
+            flex-basis: 0%;
+            display: none;
+        }
+    }
+}

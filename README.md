@@ -46,5 +46,5 @@ For issues or feature requests, please open an issue on the theme repository.
 
 ---
 
-**License:** GPL-2.0 or later  
+**License:** GPL-3.0 or later  
 **Author:** Nishant Shaligram
