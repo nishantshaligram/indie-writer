@@ -30,6 +30,10 @@ function indie_writer_enqueue_styles() {
             'style_handle' => 'iw-query-pagination',
             'style_file_path' => '/assets/css/blocks/query-pagination.css',
         ),
+        'core/block-quote' => array(
+            'style_handle' => 'iw-block-quote',
+            'style_file_path' => '/assets/css/blocks/block-quote.css',
+        ),
     );
     foreach( $blocks as $block_style ) {
         wp_enqueue_style( $block_style['style_handle'], IW_PATH . $block_style['style_file_path'], array(), IW_VERSION, 'all' );
@@ -63,6 +67,10 @@ function indie_writer_theme_steup() {
         'core/query-pagination' => array(
             'label' => __('IW Latest Posts', 'indie-writer'),
             'style_handle' => 'iw-query-pagination',
+        ),
+        'core/block-quote' => array(
+            'label' => __('IW Latest Posts', 'indie-writer'),
+            'style_handle' => 'iw-block-quote',
         ),
     );
     foreach( $blocks as $block_name => $block_style ) {
