@@ -51,17 +51,11 @@ a {
     color: var( --wp--preset--color--button );
 }
 
-p {
-    font-size: var(--wp--preset--font-size--iw-sm);
-    margin-top: 0px;
-    margin-bottom: var(--wp--preset--spacing--iw-extra-small);
-}
-
 form {
     label {
         display: block;
         font-weight: 500;
-        margin-bottom: calc(var(--wp--preset--spacing--iw-extra-small) - 5px);
+        margin-bottom: calc(var(--wp--preset--spacing--iw-xs) - 5px);
     }
     input[type="text"],
     input[type="email"],
@@ -71,10 +65,10 @@ form {
     textarea {
         width: 100%;
         font-weight: 400;
-        padding: var(--wp--preset--spacing--iw-extra-small);
+        padding: var(--wp--preset--spacing--iw-xs);
         background: var(--wp--preset--color--transparent);
         border: 1px solid var(--wp--preset--color--secondary);
-        margin-bottom: var(--wp--preset--spacing--iw-extra-small);
+        margin-bottom: var(--wp--preset--spacing--iw-xs);
     }
 
     input[type="radio"] {
@@ -89,10 +83,10 @@ form {
     input[type="reset"],
     button {
         min-width: 150px;
-        padding-top: var(--wp--preset--spacing--iw-extra-small);
-        padding-bottom: var(--wp--preset--spacing--iw-extra-small);
-        padding-left: var(--wp--preset--spacing--iw-small);
-        padding-right: var(--wp--preset--spacing--iw-small);
+        padding-top: var(--wp--preset--spacing--iw-xs);
+        padding-bottom: var(--wp--preset--spacing--iw-xs);
+        padding-left: var(--wp--preset--spacing--iw-sm);
+        padding-right: var(--wp--preset--spacing--iw-sm);
         background: var(--wp--preset--color--transparent);
         border: 1px solid var(--wp--preset--color--secondary);
         font-size: var(--wp--preset--font-size--iw-sm);

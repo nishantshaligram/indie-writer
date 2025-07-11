@@ -11,11 +11,11 @@
         color: var(--wp--preset--color--secondary);
     }
     .wp-block-comment-author-name {
-        margin-bottom: var(--wp--preset--spacing--iw-extra-small);
+        margin-bottom: var(--wp--preset--spacing--iw-xs);
     }
     .wp-block-comment-content {
         font-size: var(--wp--preset--font-size--iw-sm);
-        margin-top: var(--wp--preset--spacing--iw-extra-small);
-        margin-bottom: var(--wp--preset--spacing--iw-extra-small);
+        margin-top: var(--wp--preset--spacing--iw-xs);
+        margin-bottom: var(--wp--preset--spacing--iw-xs);
     }
 }

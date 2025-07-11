@@ -5,9 +5,9 @@
  * Categories: featured
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-large","bottom":"var:preset|spacing|iw-large","left":"var:preset|spacing|iw-small","right":"var:preset|spacing|iw-small"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-l","bottom":"var:preset|spacing|iw-l","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group"
-        style="padding-top:var(--wp--preset--spacing--iw-large);padding-right:var(--wp--preset--spacing--iw-small);padding-bottom:var(--wp--preset--spacing--iw-large);padding-left:var(--wp--preset--spacing--iw-small)">
+        style="padding-top:var(--wp--preset--spacing--iw-l);padding-right:var(--wp--preset--spacing--iw-sm);padding-bottom:var(--wp--preset--spacing--iw-l);padding-left:var(--wp--preset--spacing--iw-sm)">
         <!-- wp:columns {"verticalAlignment":"center"} -->
         <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
             <div class="wp-block-column is-vertically-aligned-center">

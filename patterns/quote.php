@@ -5,9 +5,9 @@
  * Categories: featured
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-extra-large","bottom":"var:preset|spacing|iw-extra-large","left":"var:preset|spacing|iw-small","right":"var:preset|spacing|iw-small"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-xl","bottom":"var:preset|spacing|iw-xl","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
     <div class="wp-block-group"
-        style="padding-top:var(--wp--preset--spacing--iw-extra-large);padding-right:var(--wp--preset--spacing--iw-small);padding-bottom:var(--wp--preset--spacing--iw-extra-large);padding-left:var(--wp--preset--spacing--iw-small)">
+        style="padding-top:var(--wp--preset--spacing--iw-xl);padding-right:var(--wp--preset--spacing--iw-sm);padding-bottom:var(--wp--preset--spacing--iw-xl);padding-left:var(--wp--preset--spacing--iw-sm)">
         <!-- wp:quote {"className":"is-style-default"} -->
         <blockquote class="wp-block-quote is-style-default">
             <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"italic","fontWeight":"600"}},"fontSize":"iw-l"} -->
