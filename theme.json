@@ -57,6 +57,11 @@
         },
         "color": {
             "background": true,
+            "link": true,
+            "button": true,
+            "heading": true,
+            "text": true,
+            "caption": true,
             "palette": [
                 {
                     "name": "Background",
@@ -229,6 +234,13 @@
             "core/group": {
                 "dimensions": {
                     "minHeight": true
+                }
+            },
+            "core/social-links": {
+                "color": {
+                    "background": true,
+                    "text": true,
+                    "link": true
                 }
             }
         },
@@ -613,6 +625,14 @@
                         "bottom": "var(--wp--preset--spacing--iw-xs)",
                         "left": "var(--wp--preset--spacing--iw-xs)",
                         "right": "var(--wp--preset--spacing--iw-xs)"
+                    }
+                }
+            },
+            "core/social-links": {
+                "spacing": {
+                    "margin": {
+                        "top": "0px",
+                        "bottom": "0px"
                     }
                 }
             }
