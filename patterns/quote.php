@@ -2,7 +2,7 @@
 /**
  * Title: Quote
  * Slug: indie-writer/quote
- * Categories: featured
+ * Categories: indie-writer
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-xl","bottom":"var:preset|spacing|iw-xl","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->

@@ -2,7 +2,7 @@
 /**
  * Title: Featured Posts
  * Slug: indie-writer/featured-posts
- * Categories: featured
+ * Categories: indie-writer
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-xl","bottom":"var:preset|spacing|iw-xl","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained"}} -->

@@ -3,7 +3,8 @@ define( 'IW_VERSION', '1.0.0' );
 define( 'IW_PATH', get_stylesheet_directory_uri() );
 
 function indie_writer_enqueue_styles() {
-    wp_enqueue_style('indie-writer-style', get_stylesheet_uri());
+    wp_enqueue_style('indie-writer', get_stylesheet_uri(), array(), '1.0.0', 'all');
+    wp_enqueue_style('indie-writer-main', get_stylesheet_directory_uri() . '/assets/css/style.css', array('indie-writer'), '1.0.0', 'all');
 
     $blocks = array(
         'core/categories' => array(
@@ -83,5 +84,10 @@ function indie_writer_theme_steup() {
             )
         );
     }
+
+    register_block_pattern_category(
+        'indie-writer',
+        array( 'label' => __( 'Indie Writer', 'my-plugin' ) )
+    );
 }
 add_action( 'after_setup_theme', 'indie_writer_theme_steup' );

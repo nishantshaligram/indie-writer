@@ -2,7 +2,7 @@
 /**
  * Title: Intro Section
  * Slug: indie-writer/intro-section
- * Categories: featured
+ * Categories: indie-writer
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-l","bottom":"var:preset|spacing|iw-l","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained"}} -->
@@ -21,8 +21,7 @@
 
             <!-- wp:column {"verticalAlignment":"center"} -->
             <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"iw-xl"} -->
-                <h2 class="wp-block-heading has-iw-xl-font-size">I write for those who wear confidence like couture.
-                </h2>
+                <h2 class="wp-block-heading has-iw-xl-font-size">I write for those who wear confidence like couture.</h2>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"fontSize":"iw-sm"} -->

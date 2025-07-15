@@ -679,6 +679,7 @@
     "patterns": [
         "indie-writer/quote",
         "indie-writer/featured-posts",
-        "indie-writer/intro-section"
+        "indie-writer/intro-section",
+        "indie-writer/hero-1"
     ]
 }
