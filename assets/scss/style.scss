@@ -63,3 +63,19 @@ form.wpcf7-form {
         margin: 0px;
     }
 }
+
+@media( max-width: 1024px ) {
+    .wp-block-site-logo {
+        text-align: center;
+    }
+    .wp-block-social-links {
+        font-size: var(--wp--preset--font-size--iw-xl) !important;
+        justify-content: center;
+        .wp-social-link {
+            svg {
+                width: var(--wp--preset--font-size--iw-xl) !important;
+                height: var(--wp--preset--font-size--iw-xl) !important;
+            }
+        }
+    }
+}

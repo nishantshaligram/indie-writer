@@ -1,10 +1,48 @@
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-sm","bottom":"var:preset|spacing|iw-sm","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|iw-sm","bottom":"var:preset|spacing|iw-sm","left":"var:preset|spacing|iw-sm","right":"var:preset|spacing|iw-sm"}}},"layout":{"type":"constrained","contentSize":"960px"}} -->
 <div class="wp-block-group"
     style="padding-top:var(--wp--preset--spacing--iw-sm);padding-right:var(--wp--preset--spacing--iw-sm);padding-bottom:var(--wp--preset--spacing--iw-sm);padding-left:var(--wp--preset--spacing--iw-sm)">
-    <!-- wp:navigation {"ref":26,"layout":{"type":"flex","justifyContent":"center"}} /-->
+    <!-- wp:columns {"verticalAlignment":"center"} -->
+    <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:site-logo {"width":160,"align":"left"} /-->
+        </div>
+        <!-- /wp:column -->
 
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center"><strong>©</strong> 2025 Indie Writer/Nishant Shaligram</p>
-    <!-- /wp:paragraph -->
+        <!-- wp:column {"verticalAlignment":"center"} -->
+        <div class="wp-block-column is-vertically-aligned-center">
+            <!-- wp:navigation {"ref":26,"layout":{"type":"flex","justifyContent":"center"}} /--></div>
+        <!-- /wp:column -->
+
+        <!-- wp:column {"verticalAlignment":"center"} -->
+        <div class="wp-block-column is-vertically-aligned-center">
+            <!-- wp:social-links {"iconColor":"iw-text","iconColorValue":"#000000","openInNewTab":true,"size":"has-normal-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"right"}} -->
+            <ul class="wp-block-social-links has-normal-icon-size has-icon-color is-style-logos-only">
+                <!-- wp:social-link {"url":"https://linked.com/in/blogohblog","service":"linkedin","label":"BlogOhBlog"} /-->
+
+                <!-- wp:social-link {"url":"https://x.com/blogohblog","service":"x","label":"BlogOhBlog"} /-->
+
+                <!-- wp:social-link {"url":"https://instagram.com/blogohblog","service":"instagram","label":"BlogOhBlog"} /-->
+            </ul>
+            <!-- /wp:social-links -->
+        </div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+
+    <!-- wp:columns {"verticalAlignment":"center","backgroundColor":"iw-accent"} -->
+    <div class="wp-block-columns are-vertically-aligned-center has-iw-accent-background-color has-background">
+        <!-- wp:column {"verticalAlignment":"center"} -->
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph -->
+            <p><strong>©</strong> 2025 Indie Writer</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column {"verticalAlignment":"center"} -->
+        <div class="wp-block-column is-vertically-aligned-center">
+            <!-- wp:navigation {"ref":26,"overlayMenu":"never","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} /-->
+        </div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
 </div>
 <!-- /wp:group -->
