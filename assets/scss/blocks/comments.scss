@@ -1,14 +1,14 @@
 .wp-block-comments {
     .wp-block-group {
-        padding-top: var(--wp--preset--spacing--none);
-        padding-bottom: var(--wp--preset--spacing--none);
-        padding-left: var(--wp--preset--spacing--none);
-        padding-right: var(--wp--preset--spacing--none);
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .wp-block-comment-date a,
     .wp-block-comment-edit-link a {
         font-size: var(--wp--preset--font-size--iw-xs);
-        color: var(--wp--preset--color--secondary);
+        color: var(--wp--preset--color--iw-secondary);
     }
     .wp-block-comment-author-name {
         margin-bottom: var(--wp--preset--spacing--iw-xs);

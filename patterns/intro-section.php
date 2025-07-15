@@ -25,10 +25,8 @@
                 </h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:paragraph {"fontSize":"medium"} -->
-                <p class="has-medium-font-size">From the runways of Milan to the ateliers of Paris, my words decode the
-                    world of luxury with attitude and elegance. Whether you're obsessed with heritage houses or on the
-                    hunt for the next It Brand, this blog is your front-row seat to the style conversation that matters.
+                <!-- wp:paragraph {"fontSize":"iw-sm"} -->
+                <p class="has-iw-sm-font-size">From the runways of Milan to the ateliers of Paris, my words decode the world of luxury with attitude and elegance. Whether you're obsessed with heritage houses or on the hunt for the next It Brand, this blog is your front-row seat to the style conversation that matters.
                 </p>
                 <!-- /wp:paragraph -->
             </div>

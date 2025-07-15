@@ -6,27 +6,27 @@
             "palette": [
                 {
                     "name": "Background",
-                    "slug": "background",
+                    "slug": "iw-background",
                     "color": "#FFFFFF"
                 },
                 {
                     "name": "Text",
-                    "slug": "text",
+                    "slug": "iw-text",
                     "color": "#000000"
                 },
                 {
                     "name": "Primary",
-                    "slug": "primary",
+                    "slug": "iw-primary",
                     "color": "#000000"
                 },
                 {
                     "name": "Secondary",
-                    "slug": "secondary",
+                    "slug": "iw-secondary",
                     "color": "#9D9D9D"
                 },
                 {
                     "name": "Accent",
-                    "slug": "accent",
+                    "slug": "iw-accent",
                     "color": "#E9E9E9"
                 }
             ]
