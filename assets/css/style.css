@@ -45,17 +45,44 @@ form.wpcf7-form p {
   margin: 0px;
 }
 
+.wp-block-social-links {
+  font-size: var(--wp--preset--font-size--iw-xl) !important;
+  justify-content: center;
+}
+.wp-block-social-links .wp-social-link svg {
+  width: var(--wp--preset--font-size--iw-xl) !important;
+  height: var(--wp--preset--font-size--iw-xl) !important;
+}
+
+footer .wp-block-social-links {
+  font-size: var(--wp--preset--font-size--iw-xl) !important;
+  justify-content: center;
+}
+footer .wp-block-social-links .wp-social-link svg {
+  width: var(--wp--preset--font-size--iw-xl) !important;
+  height: var(--wp--preset--font-size--iw-xl) !important;
+}
+
 @media (max-width: 1024px) {
-  .wp-block-site-logo {
+  footer .wp-block-site-logo {
     text-align: center;
   }
-  .wp-block-social-links {
-    font-size: var(--wp--preset--font-size--iw-xl) !important;
+  footer .wp-block-social-links {
+    font-size: var(--wp--preset--font-size--iw-l) !important;
     justify-content: center;
   }
-  .wp-block-social-links .wp-social-link svg {
-    width: var(--wp--preset--font-size--iw-xl) !important;
-    height: var(--wp--preset--font-size--iw-xl) !important;
+  footer .wp-block-social-links .wp-social-link svg {
+    width: var(--wp--preset--font-size--iw-l) !important;
+    height: var(--wp--preset--font-size--iw-l) !important;
+  }
+  footer .wp-block-navigation {
+    justify-content: center;
+  }
+  footer .wp-block-columns {
+    gap: var(--wp--preset--font-size--iw-sm);
+  }
+  footer p.copyright {
+    text-align: center;
   }
 }
 

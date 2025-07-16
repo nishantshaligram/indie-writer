@@ -2,18 +2,18 @@
 <div class="wp-block-group"
     style="padding-top:var(--wp--preset--spacing--iw-sm);padding-right:var(--wp--preset--spacing--iw-sm);padding-bottom:var(--wp--preset--spacing--iw-sm);padding-left:var(--wp--preset--spacing--iw-sm)">
     <!-- wp:columns {"verticalAlignment":"center"} -->
-    <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:site-logo {"width":160,"align":"left"} /-->
-        </div>
+    <div class="wp-block-columns are-vertically-aligned-center">
+        <!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
+        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%">
+            <!-- wp:site-logo {"width":160} /--></div>
         <!-- /wp:column -->
 
-        <!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center">
-            <!-- wp:navigation {"ref":26,"layout":{"type":"flex","justifyContent":"center"}} /--></div>
+        <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"></div>
         <!-- /wp:column -->
 
-        <!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center">
+        <!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
+        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%">
             <!-- wp:social-links {"iconColor":"iw-text","iconColorValue":"#000000","openInNewTab":true,"size":"has-normal-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"right"}} -->
             <ul class="wp-block-social-links has-normal-icon-size has-icon-color is-style-logos-only">
                 <!-- wp:social-link {"url":"https://linked.com/in/blogohblog","service":"linkedin","label":"BlogOhBlog"} /-->
@@ -31,8 +31,9 @@
     <!-- wp:columns {"verticalAlignment":"center","backgroundColor":"iw-accent"} -->
     <div class="wp-block-columns are-vertically-aligned-center has-iw-accent-background-color has-background">
         <!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph -->
-            <p><strong>©</strong> 2025 Indie Writer</p>
+        <div class="wp-block-column is-vertically-aligned-center">
+            <!-- wp:paragraph {"className":"copyright","style":{"spacing":{"margin":{"bottom":"0"}}}} -->
+            <p class="copyright" style="margin-bottom:0"><strong>©</strong> 2025 Indie Writer</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
